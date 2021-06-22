@@ -11,8 +11,11 @@ Example
 Suppose the following 4 inputs are given to the program:
 						
 2,2
+
 2,3
+
 3,3
+
 3,4
 						
 Then, the output of the program should be:
