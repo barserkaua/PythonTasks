@@ -6,13 +6,13 @@
 
 def array(x: int, y: int):  # x - column, y - numbers
     result = []
-    app_list = []
+    sort_by_number = []
     for i in range(x * y):
-        app_list.append(int(i + 1))
-        if len(app_list) >= y:
-            a = app_list.copy()
-            result.append(a)
-            app_list.clear()
+        sort_by_number.append(int(i + 1))
+        if len(sort_by_number) >= y:
+            copy_list = sort_by_number.copy()
+            result.append(copy_list)
+            sort_by_number.clear()
     return result
 
 

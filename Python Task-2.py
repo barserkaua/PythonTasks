@@ -18,15 +18,15 @@ are to be printed, each separated by a comma.
 
 
 def password(raw_input):
-    enter_split = raw_input.split(',')
-    filter_enter = []
-    string = ''
-    for i in enter_split:
+    raw_split = raw_input.split(',')
+    raw_filter = []
+    raw_result = ''
+    for i in raw_split:
         if 4 <= len(i) <= 6 and (' ' not in i):
-            filter_enter.append(i)
-    for f in filter_enter:
-        string += f + ','
-    return string[:-1]
+            raw_filter.append(i)
+    for f in raw_filter:
+        raw_result += f + ','
+    return raw_result[:-1]
 
 
 print(password('Abc@1,a B1#,2w3E*,2We#3345'))
