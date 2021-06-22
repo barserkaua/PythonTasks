@@ -18,8 +18,11 @@ Suppose the following 4 inputs are given to the program:
 Then, the output of the program should be:
 						
 [[1, 2], [3, 4]]
+
 [[1, 2, 3], [4, 5, 6]]
+
 [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
 [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]]
 
 
